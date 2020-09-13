@@ -34,3 +34,4 @@ class ArrayStorage {
     localStorage.removeItem(this.name)
   }
 }
+export default ArrayStorage

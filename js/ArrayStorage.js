@@ -35,3 +35,4 @@ class ArrayStorage {
   }
 
 }
+export default ArrayStorage

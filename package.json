@@ -1,8 +1,9 @@
 {
-  "name": "TODO",
+  "name": "todo",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src/js -d js"
+    "build": "babel src/js -d js",
+    "start": "webpack-cli"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -11,6 +12,7 @@
     "babel-loader": "^8.1.0",
     "babel-preset-minify": "^0.5.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }

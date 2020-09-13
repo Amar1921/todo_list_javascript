@@ -1,3 +1,7 @@
+import './promise';
+import './fetch';
+import './ArrayStorage'
+
 'use strict'; // DOM selection
 
 const list = document.getElementById('list');
